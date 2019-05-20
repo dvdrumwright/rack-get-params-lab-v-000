@@ -15,9 +15,17 @@ class Application
       resp.write handle_search(search_term)
     else
       resp.write "Path Not Found"
+    end
+    else
       resp.write "Your cart is empty"
+    end
+    else
       resp.write "Apples\nOranges"
+    end
+  else
       resp.write "We don't have that item"
+    end 
+    else
       resp.write "added Figs"
     end
 
