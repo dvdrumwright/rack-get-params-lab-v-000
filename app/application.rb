@@ -18,6 +18,7 @@ class Application
       resp.write "Your cart is empty"
       resp.write "Apples\nOranges"
       resp.write "We don't have that item"
+      resp.write "added Figs"
     end
 
     resp.finish
