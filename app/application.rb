@@ -16,6 +16,7 @@ class Application
     else
       resp.write "Path Not Found"
       resp.write "Your cart is empty"
+      resp.write "Apples\nOranges"
     end
 
     resp.finish
